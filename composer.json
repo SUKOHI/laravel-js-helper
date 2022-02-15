@@ -1,0 +1,33 @@
+{
+    "name": "sukohi/laravel-js-helper",
+    "description": "A Laravel package that provides helper functions for JavaScript like route(), dd() and constant().",
+    "keywords": [
+        "Sukohi",
+        "laravel",
+        "js-helper"
+    ],
+    "homepage": "https://github.com/sukohi/js-helper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sukohi",
+            "email": "capilano.sukohi@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^6 ||^7 || ^8 || ^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sukohi\\JsHelper\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sukohi\\JsHelper\\JsHelperServiceProvider"
+            ]
+        }
+    }
+}
