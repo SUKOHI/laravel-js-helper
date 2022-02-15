@@ -3,7 +3,10 @@
 A Laravel package that provides helper functions for JavaScript like `route()`, `dd()` and `constant()`.
 
 ***Available versions:***
-- Laravel 9+
+- Laravel 9
+- Laravel 8
+- Laravel 7
+- Laravel 6
 
 ## Installation
 
